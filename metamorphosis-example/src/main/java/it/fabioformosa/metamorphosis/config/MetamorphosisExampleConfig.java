@@ -8,10 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import dev.metamorphosis.EnableMetamorphosisConversions;
 
 @Configuration
-// @ComponentScan(basePackages = { "dev.metamorphosis",
-// "it.fabioformosa.metamorphosis" })
 @ComponentScan(basePackages = { "it.fabioformosa.metamorphosis" })
-
 @EntityScan(basePackages = { "it.fabioformosa.metamorphosis.entities" })
 @EnableJpaRepositories(basePackages = { "it.fabioformosa.metamorphosis.repositories" })
 @EnableMetamorphosisConversions
