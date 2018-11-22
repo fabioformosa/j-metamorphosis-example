@@ -5,13 +5,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import dev.metamorphosis.EnableMetamorphosisConversions;
+import dev.metamorphosis.core.EnableMetamorphosisConversions;
 
 @Configuration
 @ComponentScan(basePackages = { "it.fabioformosa.metamorphosis" })
 @EntityScan(basePackages = { "it.fabioformosa.metamorphosis.entities" })
 @EnableJpaRepositories(basePackages = { "it.fabioformosa.metamorphosis.repositories" })
-@EnableMetamorphosisConversions
+@EnableMetamorphosisConversions(basePackage = "it.fabioformosa")
 public class MetamorphosisExampleConfig {
 
 }

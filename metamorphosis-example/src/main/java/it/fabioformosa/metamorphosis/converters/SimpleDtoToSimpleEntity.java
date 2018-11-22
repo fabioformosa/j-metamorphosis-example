@@ -7,7 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Component;
 
-import dev.metamorphosis.converters.AbstractBaseConverterToEntity;
+import dev.metamorphosis.jpa.converters.AbstractBaseConverterToEntity;
 import it.fabioformosa.metamorphosis.dto.SimpleDTO;
 import it.fabioformosa.metamorphosis.entities.SimpleEntity;
 import it.fabioformosa.metamorphosis.repositories.SimpleJpaRepository;
