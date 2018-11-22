@@ -11,7 +11,7 @@ import dev.metamorphosis.core.EnableMetamorphosisConversions;
 @ComponentScan(basePackages = { "it.fabioformosa.metamorphosis" })
 @EntityScan(basePackages = { "it.fabioformosa.metamorphosis.entities" })
 @EnableJpaRepositories(basePackages = { "it.fabioformosa.metamorphosis.repositories" })
-@EnableMetamorphosisConversions(basePackage = "it.fabioformosa")
+@EnableMetamorphosisConversions(basePackages = "it.fabioformosa")
 public class MetamorphosisExampleConfig {
 
 }
