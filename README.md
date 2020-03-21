@@ -1,5 +1,5 @@
 # metamorphosis-example
-Example of use [metamorphosis library](https://github.com/fabioformosa/metamorphosis)
+Example of use [j-metamorphosis library](https://github.com/fabioformosa/j-metamorphosis)
 
 See classes:
 *  MetamorphosisExampleConfig - **how to include**
