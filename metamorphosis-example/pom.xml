@@ -46,9 +46,9 @@
 		</dependency>
     
 		<dependency>
-          <groupId>dev.metamorphosis</groupId>
+          <groupId>it.fabioformosa</groupId>
           <artifactId>metamorphosis-jpa</artifactId>
-          <version>2.1.2</version>
+          <version>3.0.0</version>
 		</dependency>
     
         <dependency>

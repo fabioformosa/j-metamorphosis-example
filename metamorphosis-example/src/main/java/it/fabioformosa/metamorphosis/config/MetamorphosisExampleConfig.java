@@ -5,7 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import dev.metamorphosis.core.EnableMetamorphosisConversions;
+import it.fabioformosa.metamorphosis.core.EnableMetamorphosisConversions;
+
 
 @Configuration
 @ComponentScan(basePackages = { "it.fabioformosa.metamorphosis" })
